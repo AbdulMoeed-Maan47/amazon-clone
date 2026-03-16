@@ -249,7 +249,7 @@
 
 .hero-msg {
   height: 40px;
-  width: 90%;
+  width: 95%;
   background-color: #ffffff;
   color: #000000;
   font-size: 0.875rem;
@@ -262,4 +262,92 @@
 .hero-msg a {
   text-decoration: none;
   color: #007185;
+}
+
+/* Shop section */
+.shop-section {
+  width: 100%;
+  background-color: #e2e7e6;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Content Section */
+.content-section {
+  width: 95%;
+  background-color: inherit;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.content-section h2 {
+  font-size: 21px;
+}
+
+.box {
+  height: 420px;
+  width: 24%;
+  background-color: #ffffff;
+  color: #0f1111;
+  padding: 20px 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.box-image {
+  height: 80%;
+  width: 100%;
+  background-size: cover;
+  margin-top: 5px;
+}
+
+.box-content span {
+  color: #2162a1;
+  font-size: 13px;
+}
+
+/* Box images */
+.box1 .box-image {
+  background-image: url(/images/box1_image.jpg);
+}
+
+.box2 .box-image {
+  background-image: url(/images/box2_image.jpg);
+}
+
+.box3 .box-image {
+  background-image: url(/images/box3_image.jpg);
+}
+
+.box4 .box-image {
+  background-image: url(/images/box4_image.jpg);
+}
+
+.box5 .box-image {
+  background-image: url(/images/box5_image.jpg);
+}
+
+.box6 .box-image {
+  background-image: url(/images/box6_image.jpg);
+}
+
+.box7 .box-image {
+  background-image: url(/images/box7_image.jpg);
+}
+
+.box8 .box-image {
+  background-image: url(/images/box8_image.jpg);
 }
