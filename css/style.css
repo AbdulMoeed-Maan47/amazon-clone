@@ -220,7 +220,7 @@
   margin-right: 10px;
 }
 
-.nav-options-box li a {
+.nav-options-box a {
   color: white;
   text-decoration: none;
   padding: 0px 4px;
@@ -234,4 +234,32 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+/* Hero section */
+.hero-section {
+  height: 300px;
+  width: 100%;
+  background-image: url(../images/hero_image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg {
+  height: 40px;
+  width: 90%;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.hero-msg a {
+  text-decoration: none;
+  color: #007185;
 }
