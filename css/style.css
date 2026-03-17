@@ -456,3 +456,36 @@ a {
   color: #cccccc;
   margin-left: 5px;
 }
+
+/* Foot panel 4 */
+.foot-panel4 {
+  height: 80px;
+  width: 100%;
+  background-color: #131a22;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.foot-panel4 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px 0px 5px;
+}
+
+.foot-panel4 li {
+  padding: 0px 8px;
+}
+
+.foot-panel4 a {
+  color: #dddddd;
+}
+
+.foot-panel4 span {
+  color: #dddddd;
+}
+
+.foot-panel4 a:hover {
+  text-decoration: underline solid white 1px;
+}
